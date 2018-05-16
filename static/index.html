@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="/static/libs/three.js"></script>
+    <script src="/static/Main.js"></script>
+	<script src="/static/Box.js"></script>
+    <script src="/static/BonusBox.js"></script>
+    <script src="/static/ExplosionMesh.js"></script>
+    <script src="/static/UI/Help.js"></script>
+    <script src="/static/UI/Kamera.js"></script>
+    <script src="/static/Bomba.js"></script>
+    <script src="/static/materials/Materials.js"></script>
+	<script src="/static/models/Models.js"></script>
+	<!--<script src="/static/models/BombermanModel.js"></script>
+    <script src="/static/Old Republic_Bold.js"></script>
+    <script src="/static/ElementSiatki.js"></script>
+    <script src="/static/Klocek.js"></script>-->
+    <script src="http://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/Style.css">
+    <script>
+        var main;
+        var client;
+        window.addEventListener("load",function () {
+            client = io();
+            main = new Main();
+        })
+    </script>
+</head>
+<body>
+    <div id="div">
+
+    </div>
+    <div id="panel">
+        <div id="head">
+            <label>Nick: <input type="text" id="username" /></label>
+            <button id="login">Zaloguj</button>
+            <select id="PlayerSelect">
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
+        <div id="body">
+        </div>
+    </div>
+</body>
+</html>

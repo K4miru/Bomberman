@@ -1,0 +1,46 @@
+﻿body{
+	margin: 0 auto;	
+	overflow: hidden;
+}
+
+#panel {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left:0;
+}
+
+#head{
+    height: 10%;
+    width: 100%;
+    position:relative;
+    top: 0;
+    background: rgb(128, 128, 128);
+}
+
+#body{
+    height: 100%;
+    width: 100%;
+    position:relative;
+    top: 0%;
+    background: rgba(128, 128, 128,0.3)
+}
+
+label {
+    position:relative;
+    top: 40%;
+    left: 40%;
+}
+
+button{
+    position:relative;
+    top: 40%;
+    left: 46%;
+}
+
+select{
+    position:relative;
+    top: 40%;
+    left: 36%;
+}
